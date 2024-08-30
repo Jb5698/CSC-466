@@ -1,0 +1,47 @@
+--------------------------------------------------------
+OUTPUT OF LINUX COMMANDS ON KALI LINUX
+--------------------------------------------------------
+ubuntu@ubuntu:~$ whereis vboxshared
+vboxshared:
+ubuntu@ubuntu:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.9M  390M   1% /run
+/dev/sr0        5.7G  5.7G     0 100% /cdrom
+/cow            2.0G   99M  1.9G   6% /
+tmpfs           2.0G  8.0K  2.0G   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           2.0G     0  2.0G   0% /tmp
+tmpfs           392M  168K  392M   1% /run/user/1000
+ubuntu@ubuntu:~$ wc -w file.txt
+wc: file.txt: No such file or directory
+ubuntu@ubuntu:~$ pwd
+/home/ubuntu
+ubuntu@ubuntu:~$ uname
+Linux
+ubuntu@ubuntu:~$ locate -e vboxshared
+Command 'locate' not found, but can be installed with:
+sudo apt install plocate
+ubuntu@ubuntu:~$ touch vboxshared.txt
+ubuntu@ubuntu:~$ ln-s Demo Linked
+ln-s: command not found
+ubuntu@ubuntu:~$ 
+
+
+
+
+--------------------------------------------------------
+OUTPUT OF LINUX COMMANDS ON KALI LINUX
+-------------------------------------------------------
+im sorry but i accidentally deleted the command codes from the previous parts
+
+
+
+-ubuntu@ubuntu:~$ gcc helloworld.c
+ubuntu@ubuntu:~$ ls
+a.out  Desktop    Downloads     Linked  Pictures  snap       vboxshared.txt
+Demo   Documents  helloworld.c  Music   Public    Templates  Videos
+ubuntu@ubuntu:~$ file a.out
+a.out: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=bac762ab9f7323513afec39033eaba1dcdd54ede, for GNU/Linux 3.2.0, not stripped
+ubuntu@ubuntu:~$ ./a.out
+Hello, Worldubuntu@ubuntu:~$ gcc helloworld.c -o malware.x
+ubuntu@ubuntu:~$ 
